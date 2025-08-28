@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="wildlife" id="wildlife">
+	<SimpleField name="form_record_id" type="string"></SimpleField>
+	<SimpleField name="deployment_info" type="int"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="camera_name" type="string"></SimpleField>
+	<SimpleField name="area" type="string"></SimpleField>
+	<SimpleField name="zone" type="string"></SimpleField>
+	<SimpleField name="trail_monitored" type="string"></SimpleField>
+	<SimpleField name="camera_id" type="string"></SimpleField>
+	<SimpleField name="camera_make" type="string"></SimpleField>
+	<SimpleField name="lock_key" type="int"></SimpleField>
+	<SimpleField name="date_deployed" type="string"></SimpleField>
+	<SimpleField name="date_removed" type="string"></SimpleField>
+	<SimpleField name="location_address" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="site_info" type="int"></SimpleField>
+	<SimpleField name="attractant_used" type="string"></SimpleField>
+	<SimpleField name="lens_compass_direction" type="float"></SimpleField>
+	<SimpleField name="feature_targetting" type="string"></SimpleField>
+	<SimpleField name="distance_to_target_feature_m" type="float"></SimpleField>
+	<SimpleField name="habitat_type" type="string"></SimpleField>
+	<SimpleField name="dominant_veg_type" type="string"></SimpleField>
+	<SimpleField name="photo" type="string"></SimpleField>
+	<SimpleField name="camera_settings" type="int"></SimpleField>
+	<SimpleField name="media_type" type="string"></SimpleField>
+	<SimpleField name="photos_per_burts_number" type="float"></SimpleField>
+	<SimpleField name="pir_sensitvity" type="string"></SimpleField>
+	<SimpleField name="time_between_photos" type="string"></SimpleField>
+	<SimpleField name="walk_test" type="string"></SimpleField>
+	<SimpleField name="additional_comments" type="int"></SimpleField>
+	<SimpleField name="site_visits" type="int"></SimpleField>
+	<SimpleField name="checks" type="int"></SimpleField>
+</Schema>
+<Folder><name>wildlife</name>
+  <Placemark>
+	<name>wild12</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-6620709ce18041a191fd99276e0eda71</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">wild12</SimpleData>
+		<SimpleData name="camera_id">641CCBD7-074F-4777-9424-CD2335F4ED11.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">05/08/2024 4:57 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.536213,-115.071410]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">27</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">fir</SimpleData>
+		<SimpleData name="photo">1744FA04-CD70-455F-AC3A-934DCC379B15.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.07141,49.536213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wild1</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-8254f95abeef477a8d19d039772dbae1</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">Wild1</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_id">60AF3A69-4B37-4135-92A2-74A196D74A94.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">05/01/2021 12:38 PM</SimpleData>
+		<SimpleData name="date_removed">08/03/2021 5:14 PM</SimpleData>
+		<SimpleData name="location">[49.503650,-115.085635]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">89</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">pine larch fir</SimpleData>
+		<SimpleData name="photo">3D0C6449-7C5D-48ED-B05C-A40AA724FEFF.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.085635,49.50365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wild1A</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-3b3bd24b6f8c43059d97e8b25096260b</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">Wild1A</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">08/03/2021 5:13 PM</SimpleData>
+		<SimpleData name="location_address">Fernie, East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">Fernie, East Kootenay BC, Canada [49.503826,-115.085304]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">57</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="photo">493FBFD6-31FA-4B52-B98D-50CDB7D4EE20.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">Very High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.085304,49.503826</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wild3</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-8f71f1ecf0514bc3b9101c1199671e80</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">Wild3</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">05/06/2021 7:00 PM</SimpleData>
+		<SimpleData name="date_removed">06/08/2021 5:15 PM</SimpleData>
+		<SimpleData name="location">[49.494758,-115.098321]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">100</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">6</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">cedar</SimpleData>
+		<SimpleData name="photo">0556CDF5-924A-43D7-8A2E-887A0C5FA36B.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.098321,49.494758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wild3a</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-0d5ad6e573104b15bc4be2c7ed5f1455</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">Wild3a</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">06/08/2021 5:15 PM</SimpleData>
+		<SimpleData name="location_address">Mount Fernie Provincial Park, Fernie BC, Canada</SimpleData>
+		<SimpleData name="location">Mount Fernie Provincial Park, Fernie BC, Canada [49.493541,-115.098228]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">100</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">6</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">cedar</SimpleData>
+		<SimpleData name="photo">79931B70-473F-4E83-9523-948BB08F3539.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">Very High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.098228,49.493541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wild4</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-66bd46ac338a4ecf992466ffc2f78c57</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">Wild4</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_id">A8E856C0-4960-4F93-808B-DE17E97E56DE.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">05/07/2021 4:24 PM</SimpleData>
+		<SimpleData name="location">[49.501292,-115.114065]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">268</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">cedar</SimpleData>
+		<SimpleData name="photo">9F972E24-F27D-4E8D-8DEF-AA3067D72D3B.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.114065,49.501292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>wild5</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-ffa52bc6c7f1454d874a3721c6fcc284</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">wild5</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_id">4829C643-67D1-4ED3-8F9A-80D4AD3A1F5D.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">06/26/2022 2:35 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.501593,-115.114572]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">260</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">cedar</SimpleData>
+		<SimpleData name="photo">6B1846BD-5D1D-43EA-BA40-86B6DC9560F4.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.114572,49.501593</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wild6</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-02e74e400e2b47df84a4952f1c2f9518</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">Wild6</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_id">6074ED1A-5BB7-4D57-82D6-58E41EA8D49B.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">06/29/2022 2:15 PM</SimpleData>
+		<SimpleData name="location_address">Mount Fernie Provincial Park, 5151–5193 Mount Fernie Park Rd, Fernie BC V0B 1M0, Canada</SimpleData>
+		<SimpleData name="location">Mount Fernie Provincial Park, 5151–5193 Mount Fernie Park Rd, Fernie BC V0B 1M0, Canada [49.489708,-115.097134]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">302</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">spruce</SimpleData>
+		<SimpleData name="photo">6F912BD9-4243-4E5C-BA8E-95A74B0EB692.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.097134,49.489708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>wild10</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-642fa2e63d314807b071350673fc51cc</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">wild10</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_id">5CB6892D-EB00-41E8-A40A-8E9DF73AF58F.jpg; 193E034A-480C-4E0D-B6E5-60C3CCFAF84D.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">08/06/2022 1:53 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.536017,-115.072383]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">330</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">6</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">spruce</SimpleData>
+		<SimpleData name="photo">5CB6892D-EB00-41E8-A40A-8E9DF73AF58F.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">very High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.072383,49.536017</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>wild11</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-d99ff954afe847f888db039bde696953</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">wild11</SimpleData>
+		<SimpleData name="area">FerniePP</SimpleData>
+		<SimpleData name="camera_id">64829ADE-F961-4FFA-820A-1842BF6A439B.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">06/15/2023 7:01 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.502029,-115.125590]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">250</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">8</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="dominant_veg_type">cedar</SimpleData>
+		<SimpleData name="photo">6E2DABEC-A3D3-4182-95DA-B1FBF2C8936C.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.12559,49.502029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AHIGH1</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-0f9e647cea224a01b2aea485149c33be</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">AHIGH1</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">07/28/2023 3:47 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.590994,-115.106092]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.106092,49.590994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALOWER1</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-560ddb5516444fbb8dcff12b438d7966</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">ALOWER1</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">07/28/2023 3:45 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.605947,-115.099675]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.099675,49.605947</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BASINRIDGE</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-f8671d89434045c48628a8978c54fcda</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">BASINRIDGE</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">07/29/2023 3:50 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.551369,-115.136231]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">No</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.136231,49.551369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HWILD7</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-4668837ef5e549149d93621f8972efb0</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">HWILD7</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="zone">Heikos Lower</SimpleData>
+		<SimpleData name="trail_monitored">Heiko's Trail</SimpleData>
+		<SimpleData name="camera_id">C0F3F18A-7B5A-4FB1-8BF1-5FE53DCBACFD.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">08/04/2022 8:34 AM</SimpleData>
+		<SimpleData name="location">[49.613002,-115.103599]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">167</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Riverside</SimpleData>
+		<SimpleData name="dominant_veg_type">fir</SimpleData>
+		<SimpleData name="photo">78AC1CC9-BC45-4247-8C52-B0599E303A54.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.103599,49.613002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HWILD8</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-16fcbdbc4c5f4e1db964959b4d1ef63f</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">HWILD8</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="zone">Soda Campsite</SimpleData>
+		<SimpleData name="trail_monitored">Heiko's Trail</SimpleData>
+		<SimpleData name="camera_id">8C254A92-4493-46E6-8C81-DB9C82F52792.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">08/04/2022 11:39 AM</SimpleData>
+		<SimpleData name="location">[49.581426,-115.129119]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">348</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">15</SimpleData>
+		<SimpleData name="habitat_type">Meadow (open habitat, grasses, non-woody plants)</SimpleData>
+		<SimpleData name="photo">96762480-B778-4BAA-9CC4-35B9EAA3F65A.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">Very High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.129119,49.581426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HWILD9</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-845b85216c3543df8c20cfe948292bb2</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">HWILD9</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="zone">Fairy Meadow</SimpleData>
+		<SimpleData name="camera_id">79FB6BFE-F2D8-4DE9-B47D-66F513557E3A.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">08/04/2022 2:02 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.558317,-115.129299]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">302</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">8</SimpleData>
+		<SimpleData name="habitat_type">Meadow (open habitat, grasses, non-woody plants)</SimpleData>
+		<SimpleData name="dominant_veg_type">fir</SimpleData>
+		<SimpleData name="photo">91E7F118-2F9F-4194-BBFB-055AFD365344.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.129299,49.558317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>IRONMTN</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-a2296d17fd55448494aeb0747c44940d</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">IRONMTN</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="camera_id">IMG_0596.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">09/12/2023 12:54 PM</SimpleData>
+		<SimpleData name="location">[49.558180,-115.173460]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">180</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="habitat_type">Meadow (open habitat, grasses, non-woody plants)</SimpleData>
+		<SimpleData name="photo">IMG_0594.jpg; IMG_0592.jpg; IMG_0590.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.17346,49.55818</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>IRONUPPERN</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-40accceef7b84c0d9b1c1be935f59cc8</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">IRONUPPERN</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">07/29/2023 3:51 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.552061,-115.155533]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">No</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.155533,49.552061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>UPPERBASIN</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-9cbf5c127eea415f8175e5ba5b8e5fab</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">UPPERBASIN</SimpleData>
+		<SimpleData name="area">Heikos</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">07/29/2023 3:49 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.556986,-115.136239]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.136239,49.556986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>coal2</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-511d070cc69f4352a44b079bb0fa8676</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">coal2</SimpleData>
+		<SimpleData name="area">TransRockies</SimpleData>
+		<SimpleData name="camera_id">76499FC6-1940-403D-8607-E269F847B4E4.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">07/06/2023 1:25 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.610346,-114.934000]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">290</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">7</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="photo">AE96A35F-EFA5-436A-8AFF-4EA30FD32A41.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-114.934,49.610346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>coal4</name>
+	<ExtendedData><SchemaData schemaUrl="#wildlife">
+		<SimpleData name="form_record_id">rec-9913e1407709418aaaefee6842879ca6</SimpleData>
+		<SimpleData name="surface">Wildlife</SimpleData>
+		<SimpleData name="camera_name">coal4</SimpleData>
+		<SimpleData name="area">TransRockies</SimpleData>
+		<SimpleData name="camera_id">16431470-2D8F-4E67-B00B-A40294BFF5BC.jpg</SimpleData>
+		<SimpleData name="camera_make">Reconynx Hyperfire 2</SimpleData>
+		<SimpleData name="date_deployed">07/06/2023 2:07 PM</SimpleData>
+		<SimpleData name="location_address">East Kootenay BC, Canada</SimpleData>
+		<SimpleData name="location">East Kootenay BC, Canada [49.600758,-114.944031]</SimpleData>
+		<SimpleData name="attractant_used">No</SimpleData>
+		<SimpleData name="lens_compass_direction">111</SimpleData>
+		<SimpleData name="feature_targetting">Game trail</SimpleData>
+		<SimpleData name="distance_to_target_feature_m">6</SimpleData>
+		<SimpleData name="habitat_type">Forest (adult trees, woody plants dominant)</SimpleData>
+		<SimpleData name="photo">21BEE33E-5809-4C07-96B9-5D92AD0A66A6.jpg</SimpleData>
+		<SimpleData name="media_type">Photos, Time-lapse (1/day 12:00)</SimpleData>
+		<SimpleData name="photos_per_burts_number">5</SimpleData>
+		<SimpleData name="pir_sensitvity">High</SimpleData>
+		<SimpleData name="time_between_photos">No Delay</SimpleData>
+		<SimpleData name="walk_test">Yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-114.944031,49.600758</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,183 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20221101</CreaDate>
+		<CreaTime>17051100</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemName Sync="TRUE">FTA_TrailNetwork</itemName>
+				<imsContentType Sync="TRUE">002</imsContentType>
+				<relatedItems>
+					<item>
+						<itemName/>
+					</item>
+				</relatedItems>
+				<itemLocation><linkage Sync="TRUE">file://\\PROCESSPC-02\Users\CIRUS02\Downloads\TrailData\FTA_TrailNetwork.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemSize Sync="TRUE">0.000</itemSize></itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">WGS_1984_Web_Mercator_Auxiliary_Sphere</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.2.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;WGS_1984_Web_Mercator_Auxiliary_Sphere&amp;quot;,GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Mercator_Auxiliary_Sphere&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,0.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,0.0],PARAMETER[&amp;quot;Auxiliary_Sphere_Type&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3857]]&lt;/WKT&gt;&lt;XOrigin&gt;-20037700&lt;/XOrigin&gt;&lt;YOrigin&gt;-30241100&lt;/YOrigin&gt;&lt;XYScale&gt;148923141.92838538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102100&lt;/WKID&gt;&lt;LatestWKID&gt;3857&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+			<lineage><Process ToolSource="c:\users\cirus02\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ExportFeatures" Date="20250513" Time="144024">ExportFeatures "Trail Management Layer\Trail Network" C:\Users\CIRUS02\AppData\Local\Temp\ArcGISProTemp8368\Untitled\Default.gdb\TrailNetwork # NOT_USE_ALIAS "name "Name" true true false 255 Text 0 0,First,#,Trail Management Layer\Trail Network,name,0,254;trailabbrev "Trail Abbreviation" true true false 4 Text 0 0,First,#,Trail Management Layer\Trail Network,trailabbrev,0,3;globalid "GlobalID" false false true 38 GlobalID 0 0,First,#,Trail Management Layer\Trail Network,globalid,-1,-1;trailid "Trail ID" true true false 0 Long 0 0,First,#,Trail Management Layer\Trail Network,trailid,-1,-1;regiontitle "Region Title" true true false 2 Text 0 0,First,#,Trail Management Layer\Trail Network,regiontitle,0,1;difficulty "Difficulty" true true false 1 Text 0 0,First,#,Trail Management Layer\Trail Network,difficulty,0,254;ttf "TTF" true true false 3 Text 0 0,First,#,Trail Management Layer\Trail Network,ttf,0,2;trailtype "Trail Type" true true false 1 Text 0 0,First,#,Trail Management Layer\Trail Network,trailtype,0,254;usage "Usage" true true false 1 Text 0 0,First,#,Trail Management Layer\Trail Network,usage,0,254;direction "Direction" true true false 1 Text 0 0,First,#,Trail Management Layer\Trail Network,direction,0,254;season "Season" true true false 1 Text 0 0,First,#,Trail Management Layer\Trail Network,season,0,254;poc "PoC" true true false 255 Text 0 0,First,#,Trail Management Layer\Trail Network,poc,0,254;pot "PoT" true true false 255 Text 0 0,First,#,Trail Management Layer\Trail Network,pot,0,254;length "Length (km)" true true false 0 Double 0 0,First,#,Trail Management Layer\Trail Network,length,-1,-1;gnss "GNSS" true true false 1 Text 0 0,First,#,Trail Management Layer\Trail Network,gnss,0,254;collrole "Collector's Role" true true false 1 Text 0 0,First,#,Trail Management Layer\Trail Network,collrole,0,254;collname "Collector's Name" true true false 255 Text 0 0,First,#,Trail Management Layer\Trail Network,collname,0,254;start_x "Start_x" true true false 0 Double 0 0,First,#,Trail Management Layer\Trail Network,start_x,-1,-1;start_y "Start_y" true true false 0 Double 0 0,First,#,Trail Management Layer\Trail Network,start_y,-1,-1;end_x "End_x" true true false 0 Double 0 0,First,#,Trail Management Layer\Trail Network,end_x,-1,-1;end_y "End_y" true true false 0 Double 0 0,First,#,Trail Management Layer\Trail Network,end_y,-1,-1;SHAPE__Length "SHAPE__Length" false true true 0 Double 0 0,First,#,Trail Management Layer\Trail Network,SHAPE__Length,-1,-1;discription "Discription" true true false 256 Text 0 0,First,#,Trail Management Layer\Trail Network,discription,0,255;created_user "created_user" false true true 255 Text 0 0,First,#,Trail Management Layer\Trail Network,created_user,0,254;created_date "created_date" false true true 29 Date 0 0,First,#,Trail Management Layer\Trail Network,created_date,-1,-1;last_edited_user "last_edited_user" false true true 255 Text 0 0,First,#,Trail Management Layer\Trail Network,last_edited_user,0,254;last_edited_date "last_edited_date" false true true 29 Date 0 0,First,#,Trail Management Layer\Trail Network,last_edited_date,-1,-1;gnss_length_m "GNSS_Length_m" true true false 0 Double 0 0,First,#,Trail Management Layer\Trail Network,gnss_length_m,-1,-1;utm_length_m "UTM Length (m)" true true false 0 Double 0 0,First,#,Trail Management Layer\Trail Network,utm_length_m,-1,-1" #</Process><Process ToolSource="c:\users\cirus02\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20250513" Time="145745">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.2.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=C:\Users\CIRUS02\AppData\Local\Temp\ArcGISProTemp8368\Untitled\Default.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;TrailNetwork&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;RiderCount2024&lt;/field_name&gt;&lt;field_type&gt;LONG&lt;/field_type&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;RiderCountAll&lt;/field_name&gt;&lt;field_type&gt;LONG&lt;/field_type&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\users\cirus02\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20250513" Time="150122">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.2.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=C:\Users\CIRUS02\AppData\Local\Temp\ArcGISProTemp8368\Untitled\Default.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;TrailNetwork&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;RidesAllTime&lt;/field_name&gt;&lt;field_type&gt;LONG&lt;/field_type&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\users\cirus02\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ExportFeatures" Date="20250513" Time="150922">ExportFeatures TrailNetwork C:\Users\CIRUS02\Downloads\TrailData\FTA_TrailNetwork.shp # NOT_USE_ALIAS "name "Name" true true false 255 Text 0 0,First,#,TrailNetwork,name,0,254;trailabbrev "Trail Abbreviation" true true false 4 Text 0 0,First,#,TrailNetwork,trailabbrev,0,3;globalid "GlobalID" false false true 38 Text 0 0,First,#,TrailNetwork,globalid,-1,-1;trailid "Trail ID" true true false 4 Long 0 0,First,#,TrailNetwork,trailid,-1,-1;regiontitle "Region Title" true true false 2 Text 0 0,First,#,TrailNetwork,regiontitle,0,1;difficulty "Difficulty" true true false 1 Text 0 0,First,#,TrailNetwork,difficulty,0,0;ttf "TTF" true true false 3 Text 0 0,First,#,TrailNetwork,ttf,0,2;trailtype "Trail Type" true true false 1 Text 0 0,First,#,TrailNetwork,trailtype,0,0;usage "Usage" true true false 1 Text 0 0,First,#,TrailNetwork,usage,0,0;direction "Direction" true true false 1 Text 0 0,First,#,TrailNetwork,direction,0,0;season "Season" true true false 1 Text 0 0,First,#,TrailNetwork,season,0,0;poc "PoC" true true false 255 Text 0 0,First,#,TrailNetwork,poc,0,254;pot "PoT" true true false 255 Text 0 0,First,#,TrailNetwork,pot,0,254;length "Length (km)" true true false 8 Double 0 0,First,#,TrailNetwork,length,-1,-1;gnss "GNSS" true true false 1 Text 0 0,First,#,TrailNetwork,gnss,0,0;collrole "Collector's Role" true true false 1 Text 0 0,First,#,TrailNetwork,collrole,0,0;collname "Collector's Name" true true false 255 Text 0 0,First,#,TrailNetwork,collname,0,254;start_x "Start_x" true true false 8 Double 0 0,First,#,TrailNetwork,start_x,-1,-1;start_y "Start_y" true true false 8 Double 0 0,First,#,TrailNetwork,start_y,-1,-1;end_x "End_x" true true false 8 Double 0 0,First,#,TrailNetwork,end_x,-1,-1;end_y "End_y" true true false 8 Double 0 0,First,#,TrailNetwork,end_y,-1,-1;discription "Discription" true true false 256 Text 0 0,First,#,TrailNetwork,discription,0,255;created_user "created_user" true true false 255 Text 0 0,First,#,TrailNetwork,created_user,0,254;created_date "created_date" true true false 8 Date 0 0,First,#,TrailNetwork,created_date,-1,-1;last_edited_user "last_edited_user" true true false 255 Text 0 0,First,#,TrailNetwork,last_edited_user,0,254;last_edited_date "last_edited_date" true true false 8 Date 0 0,First,#,TrailNetwork,last_edited_date,-1,-1;gnss_length_m "GNSS_Length_m" true true false 8 Double 0 0,First,#,TrailNetwork,gnss_length_m,-1,-1;utm_length_m "UTM Length (m)" true true false 8 Double 0 0,First,#,TrailNetwork,utm_length_m,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0,First,#,TrailNetwork,Shape_Length,-1,-1;RiderCount2024 "RiderCount2024" true true false 4 Long 0 0,First,#,TrailNetwork,RiderCount2024,-1,-1;RiderCountAll "RiderCountAll" true true false 4 Long 0 0,First,#,TrailNetwork,RiderCountAll,-1,-1;RidesAllTime "RidesAllTime" true true false 4 Long 0 0,First,#,TrailNetwork,RidesAllTime,-1,-1" #</Process><Process ToolSource="c:\users\cirus02\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20250514" Time="090036">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.2.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=G:\FTA\TrailNetwork\TrailData&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;Shapefile&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;FTA_TrailNetwork.shp&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;Riders2024&lt;/field_name&gt;&lt;field_type&gt;LONG&lt;/field_type&gt;&lt;field_is_nullable&gt;False&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;RidersAll&lt;/field_name&gt;&lt;field_type&gt;LONG&lt;/field_type&gt;&lt;field_is_nullable&gt;False&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;AllRides&lt;/field_name&gt;&lt;field_type&gt;LONG&lt;/field_type&gt;&lt;field_is_nullable&gt;False&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\users\cirus02\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20250514" Time="091615">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.2.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=G:\FTA\TrailNetwork\TrailData&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;Shapefile&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;FTA_TrailNetwork.shp&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;DeleteField&gt;&lt;field_name&gt;RiderCount&lt;/field_name&gt;&lt;field_name&gt;RiderCou_1&lt;/field_name&gt;&lt;field_name&gt;RidesAllTi&lt;/field_name&gt;&lt;/DeleteField&gt;&lt;/workflow&gt;&lt;workflow&gt;&lt;AlterField&gt;&lt;field_name&gt;created_da&lt;/field_name&gt;&lt;field_is_nullable&gt;False&lt;/field_is_nullable&gt;&lt;clear_field_alias&gt;False&lt;/clear_field_alias&gt;&lt;/AlterField&gt;&lt;/workflow&gt;&lt;workflow&gt;&lt;AlterField&gt;&lt;field_name&gt;last_edi_1&lt;/field_name&gt;&lt;field_is_nullable&gt;False&lt;/field_is_nullable&gt;&lt;clear_field_alias&gt;False&lt;/clear_field_alias&gt;&lt;/AlterField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\users\cirus02\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20250514" Time="091618">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.2.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=G:\FTA\TrailNetwork\TrailData&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;Shapefile&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;FTA_TrailNetwork.shp&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AlterField&gt;&lt;field_name&gt;created_da&lt;/field_name&gt;&lt;field_is_nullable&gt;False&lt;/field_is_nullable&gt;&lt;clear_field_alias&gt;False&lt;/clear_field_alias&gt;&lt;/AlterField&gt;&lt;/workflow&gt;&lt;workflow&gt;&lt;AlterField&gt;&lt;field_name&gt;last_edi_1&lt;/field_name&gt;&lt;field_is_nullable&gt;False&lt;/field_is_nullable&gt;&lt;clear_field_alias&gt;False&lt;/clear_field_alias&gt;&lt;/AlterField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process></lineage></DataProperties>
+		<SyncDate>20250513</SyncDate>
+		<SyncTime>15092200</SyncTime>
+		<ModDate>20250513</ModDate>
+		<ModTime>15092200</ModTime>
+	</Esri>
+	<dataIdInfo>
+		<envirDesc Sync="FALSE">Esri ArcGIS 12.7.3.26828</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="eng"/>
+			<countryCode Sync="TRUE" value="CAN"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">FTA_TrailNetwork</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"/>
+		</spatRpType>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="eng"/>
+		<countryCode Sync="TRUE" value="CAN"/>
+	</mdLang>
+	<distInfo>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+		<distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE" code="3857"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.18.3(9.3.1.2)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="FTA_TrailNetwork"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<spdoinfo>
+		<ptvctinf><esriterm Name="FTA_TrailNetwork"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">TRUE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<eainfo>
+		<detailed Name="FTA_TrailNetwork">
+			<enttyp>
+				<enttypl Sync="TRUE">FTA_TrailNetwork</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Name</attrlabl>
+				<attalias Sync="TRUE">name</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr><attrlabl Sync="TRUE">trailabbre</attrlabl><attalias Sync="TRUE">trailabbre</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl Sync="TRUE">trailid</attrlabl>
+				<attalias Sync="TRUE">trailid</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">difficulty</attrlabl>
+				<attalias Sync="TRUE">difficulty</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr><attrlabl Sync="TRUE">regiontitl</attrlabl><attalias Sync="TRUE">regiontitl</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl Sync="TRUE">trailtype</attrlabl>
+				<attalias Sync="TRUE">trailtype</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr><attrlabl Sync="TRUE">ttf</attrlabl><attalias Sync="TRUE">ttf</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl Sync="TRUE">usage</attrlabl>
+				<attalias Sync="TRUE">usage</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">direction</attrlabl>
+				<attalias Sync="TRUE">direction</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">season</attrlabl>
+				<attalias Sync="TRUE">season</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GlobalID</attrlabl>
+				<attalias Sync="TRUE">globalid</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">38</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PoC</attrlabl>
+				<attalias Sync="TRUE">poc</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PoT</attrlabl>
+				<attalias Sync="TRUE">pot</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Length</attrlabl>
+				<attalias Sync="TRUE">length</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr><attrlabl Sync="TRUE">gnss</attrlabl><attalias Sync="TRUE">gnss</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">collrole</attrlabl><attalias Sync="TRUE">collrole</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">collname</attrlabl><attalias Sync="TRUE">collname</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">start_x</attrlabl><attalias Sync="TRUE">start_x</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">start_y</attrlabl><attalias Sync="TRUE">start_y</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">end_x</attrlabl><attalias Sync="TRUE">end_x</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">end_y</attrlabl><attalias Sync="TRUE">end_y</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">discriptio</attrlabl><attalias Sync="TRUE">discriptio</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">created_us</attrlabl><attalias Sync="TRUE">created_us</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">created_da</attrlabl><attalias Sync="TRUE">created_da</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">last_edite</attrlabl><attalias Sync="TRUE">last_edite</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">last_edi_1</attrlabl><attalias Sync="TRUE">last_edi_1</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">gnss_lengt</attrlabl><attalias Sync="TRUE">gnss_lengt</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">utm_length</attrlabl><attalias Sync="TRUE">utm_length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RiderCount</attrlabl><attalias Sync="TRUE">RiderCount</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RiderCou_1</attrlabl><attalias Sync="TRUE">RiderCou_1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RidesAllTi</attrlabl><attalias Sync="TRUE">RidesAllTi</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_regionti</attrlabl><attalias Sync="TRUE">d_regionti</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_difficul</attrlabl><attalias Sync="TRUE">d_difficul</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_ttf</attrlabl><attalias Sync="TRUE">d_ttf</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_trailtyp</attrlabl><attalias Sync="TRUE">d_trailtyp</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_usage</attrlabl><attalias Sync="TRUE">d_usage</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_directio</attrlabl><attalias Sync="TRUE">d_directio</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_season</attrlabl><attalias Sync="TRUE">d_season</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_gnss</attrlabl><attalias Sync="TRUE">d_gnss</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_collrole</attrlabl><attalias Sync="TRUE">d_collrole</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">d_collname</attrlabl><attalias Sync="TRUE">d_collname</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20250513</mdDateSt>
+</metadata>

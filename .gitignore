@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+old
+.Rdata
+grizz_rec_issa/results/old
+grizz_rec_issa/results/model.results.rds
+data/spatial/raw
