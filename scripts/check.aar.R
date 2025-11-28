@@ -57,8 +57,8 @@ ggplot(df%>%
 
 
 ggplot(df%>%filter(class=="mtn.bikers",
-                   lag.before<=48,
-                   lag.after<=48), aes(x = time_decimal, y = log(aar))) +
+                   lag.before<=36,
+                   lag.after<=36), aes(x = time_decimal, y = log(aar))) +
   geom_point() +
   geom_hline(yintercept = 0, linetype = "dashed") +
   geom_smooth(se = FALSE, method = "loess") +
@@ -69,14 +69,14 @@ ggplot(df%>%filter(class=="mtn.bikers",
 
 
 mod <- df.select%>%
-  filter(lag.before<=36,
-                   lag.after<=36)%>%
+  filter(lag.before<=24,
+                   lag.after<=24)%>%
   mutate(log.aar=log(aar))%>%
   glm(log.aar~scale(time_decimal) + class, data=.)
   
 summary(mod)
 
-pred.dat <- tibble(time_decimal=seq(1,24, by=0.5))
+pred.dat <- tibble(time_decimal=seq(1,24, by=0.5), class="mtn.bikers")
 pred.dat$pred <- predict(mod, newdata = pred.dat)
 pred.dat$se <- predict(mod, newdata = pred.dat,se=TRUE)$se.fit
 

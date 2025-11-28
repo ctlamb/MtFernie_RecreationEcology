@@ -898,6 +898,18 @@ pairwise_df_raw <- mod.dat %>%
   group_map(~ get_two_contrasts(.x, .y$species_common_name)) %>%
   bind_rows()
 
+## convert to simpler format for inputting values into paper
+##flip direction
+iou_stats <- pairwise_df_raw%>%
+  mutate(ratio=1/ratio,
+         odds.ratio=1/odds.ratio)%>%
+  select(species_common_name,
+         a=group2,
+         b=group1,
+         ratio,
+         odds.ratio,
+         p.value,
+         label)
 ## such a major difference here but 0 bikes detected wont let models converge
 # pairwise_df_raw <- pairwise_df_raw %>%
 #   mutate(label = case_when(
